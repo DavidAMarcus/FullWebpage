@@ -52,7 +52,7 @@ ul {
 header {
     background-color: #2d3b3e;
     color: #fff;
-    /* /* Setting a min-height so the height for the header section can expand of needed  */
+    /* Setting a min-height so the height for the header section can expand of needed  */
     min-height: 70px;
     border-bottom: 3px solid #eb4442;
     padding: 5px 0;
@@ -92,7 +92,7 @@ header a:hover {
     font-weight: bold;
 }
 
-/* Showcase */
+    /* Showcase */
 #showcase {
     min-height: 400px;
     background-image: url('laptop.png');
@@ -110,4 +110,58 @@ header a:hover {
 
 #showcase p {
     font-size: 20px;
+}
+
+    /* Newsletter */
+#newsletter {
+    background-color: #2d2b3e;
+    padding: 15px;
+    color: #fff;
+}
+
+#newsletter .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#newsletter input {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+    /* Boxes */
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .container {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+}
+
+#boxes .container .box {
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
+#boxes .box i {
+    font-size: 100px;
+    margin: auto;
+}
+
+#boxes .box .fa-html5 {
+    color: #d45632;
+}
+
+#boxes .box .fa-css3-alt {
+    color: #2d50dc;
+}
+
+#boxes .box .fa-js {
+    color: #f3df50;
 }
